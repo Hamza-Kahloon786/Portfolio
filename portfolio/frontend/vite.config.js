@@ -4,6 +4,16 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      },
+    },
+  },
+  server: {
+    historyApiFallback: true,
+  },
   plugins: [react()],
   resolve: {
     alias: {
@@ -11,3 +21,5 @@ export default defineConfig({
     },
   },
 })
+
+  
