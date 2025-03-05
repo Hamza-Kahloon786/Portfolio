@@ -48,7 +48,7 @@ const Footer = () => {
             variants={containerVariants}
           >
             <motion.div variants={itemVariants} className="logo text-3xl font-bold mb-4">
-              KabirAhmad<span className="text-primary">.</span>
+              Hamza Kahloon<span className="text-primary">.</span>
             </motion.div>
             
             <motion.p variants={itemVariants} className="text-gray-400 mb-6 max-w-md">
@@ -151,7 +151,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <h4 className="font-medium text-white">Email</h4>
-                  <p className="text-gray-400">kabir.ahmad@example.com</p>
+                  <p className="text-gray-400">hamzaakahloon903</p>
                 </div>
               </motion.li>
               
@@ -161,7 +161,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <h4 className="font-medium text-white">Phone</h4>
-                  <p className="text-gray-400">+1 (555) 123-4567</p>
+                  <p className="text-gray-400">+92 3091453950</p>
                 </div>
               </motion.li>
               
@@ -171,7 +171,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <h4 className="font-medium text-white">Location</h4>
-                  <p className="text-gray-400">San Francisco, California</p>
+                  <p className="text-gray-400">Narang Mandi</p>
                 </div>
               </motion.li>
             </motion.ul>
@@ -231,7 +231,7 @@ const Footer = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
           >
-            © {currentYear} Kabir Ahmad. All rights reserved. Made with <FaHeart className="inline text-primary mx-1" /> using React.
+            © {currentYear} Hamza Kahloon. All rights reserved. Made with <FaHeart className="inline text-primary mx-1" /> using React.
           </motion.p>
           
           <motion.div 

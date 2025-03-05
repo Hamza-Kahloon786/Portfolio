@@ -34,7 +34,7 @@ const Navbar = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          Hamza Kaloon
+          Hamza Kahloon
         </motion.div>
         
         {/* Mobile menu button */}
